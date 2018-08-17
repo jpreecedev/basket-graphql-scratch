@@ -1,5 +1,5 @@
 {
-  "name": "webpack-4-scratch",
+  "name": "basket-graphql-scratch",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jpreecedev/webpack-4-scratch.git"
+    "url": "git+https://github.com/jpreecedev/basket-graphql-scratch.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jpreecedev/webpack-4-scratch/issues"
+    "url": "https://github.com/jpreecedev/basket-graphql-scratch/issues"
   },
-  "homepage": "https://github.com/jpreecedev/webpack-4-scratch#readme",
+  "homepage": "https://github.com/jpreecedev/basket-graphql-scratch#readme",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.56",
     "@babel/plugin-proposal-class-properties": "^7.0.0-beta.56",
