@@ -1,13 +1,14 @@
-# Webpack 4, React, Jest, Babel 7 starter project with decorators
+# GraphQL with .NET back end PoC
 
-A pre-configured starter project with the following features (all accurate at time of writing, very likely subject to change!);
-* Webpack 4
-* Babel 7
-* Jest
-* Enzyme
-* ESLint & Prettier
-* Generator/decorator polyfills
-* Example usage of a decorator and its associated unit test
+A test project for understanding how to use GraphQL with a .NET back end
+
+- Webpack 4
+- Babel 7
+- Jest
+- Enzyme
+- ESLint & Prettier
+- Generator polyfills
+- GraphQL with Apollo
 
 ## Main commands
 

@@ -1,27 +1,14 @@
 import * as React from 'react'
 import styles from './styles.module.scss'
 
-import alert from '../../decorators/alert'
-
-class App extends React.Component {
-  state = {
-    message: 'Hello, World!'
-  }
-
-  @alert('Goodbye, World!')
-  showMessage = () => {
-    alert(this.state.message)
-  }
-
-  render() {
-    return (
-      <header>
-        <h1>Hello, World!</h1>
-        <h2 className={styles.module}>Goodbye</h2>
-        <button onClick={this.showMessage}>Click Me</button>
-      </header>
-    )
-  }
-}
+const App = () => (
+  <header>
+    <h1 className={styles.module}>GraphQL with .NET Back end Proof-of-Concept</h1>
+    <div className={styles.container}>
+      <button>Request some data</button>
+      <p className={styles.result}>There is nothing to display.</p>
+    </div>
+  </header>
+)
 
 export default App
