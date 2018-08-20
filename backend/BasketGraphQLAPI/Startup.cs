@@ -1,12 +1,11 @@
-﻿using BasketGraphQLAPI;
-using Microsoft.Owin;
+﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(Startup))]
+[assembly: OwinStartup(typeof(BasketGraphQLAPI.Startup))]
 
 namespace BasketGraphQLAPI
 {
-    public class Startup
+    public partial class Startup
     {
         public void Configuration(IAppBuilder app)
         {

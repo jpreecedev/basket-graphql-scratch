@@ -8,20 +8,21 @@ class App extends React.Component {
   }
 
   requestData = () => {
-    axios(
-      config,
-      data: JSON.stringify({
-        query: `{
-      humans {
-        name
-      }
-    }`
+    axios
+      .post('http://localhost:50060/api/graphql', {
+        data: JSON.stringify({
+          query: `{
+        humans {
+          name
+        }
+      }`
+        })
       })
-    }).then(resp => {
-      this.setState({
-        humans: resp.data
+      .then(resp => {
+        this.setState({
+          humans: resp.data
+        })
       })
-    })
   }
 
   render() {

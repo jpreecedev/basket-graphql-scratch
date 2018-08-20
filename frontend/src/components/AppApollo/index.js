@@ -1,6 +1,6 @@
 import * as React from 'react'
 import gql from 'graphql-tag'
-import { Query, withApollo } from 'react-apollo'
+import { withApollo } from 'react-apollo'
 
 import styles from './styles.module.scss'
 

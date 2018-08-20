@@ -1,27 +1,17 @@
 # GraphQL with .NET back end PoC
 
-A test project for understanding how to use GraphQL with a .NET back end
+A test project for understanding how to use GraphQL with a .NET back end. This repo is purely for learning purposes and should not be used as the foundation for any applications going forward.
 
-- Webpack 4
-- Babel 7
-- Jest
-- Enzyme
-- ESLint & Prettier
-- Generator polyfills
-- GraphQL with Apollo
+For simplicity, the front end and back end are split into two separate projects that run on separate ports. Due to this, I have enabled CORS (any origin).
 
-## Main commands
+## Front end
 
-```shell
-# Run the dev server on port 8080
-yarn start
+Based on my [Webpack 4 scratch repo](https://github.com/jpreecedev/webpack-4-scratch), with a few additional packages to support using GraphQL with the Apollo client.
 
-# Generate a production build
-yarn build
+To run, change directory to `/frontend` and run `yarn start`. This will start a server listening on `https://localhost:8080`.
 
-# Run ESLint
-yarn lint
+When the back end is running, click **Request some data** to trigger a `POST` request to the GraphQL endpoint. The result of the request will be displayed underneath the button.
 
-# Run unit tests
-yarn test
-```
+## Back end
+
+To run the back end, go to the `/backend` folder and open `BasketGraphQLAPI.sln` with Visual Studio 2015 or higher. When open, press `F5` to start the application running. The backend is based on an [example GraphQL/DotNet repo](https://github.com/graphql-dotnet/graphql-dotnet), with most of the fluff removed.
