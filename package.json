@@ -72,7 +72,14 @@
     "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
+    "apollo-cache-inmemory": "^1.2.7",
+    "apollo-client": "^2.3.8",
+    "apollo-link-http": "^1.5.4",
+    "axios": "^0.18.0",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
     "react": "^16.4.2",
+    "react-apollo": "^2.1.11",
     "react-dom": "^16.4.2"
   },
   "browserslist": {
